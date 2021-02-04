@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<!--ref https://www.w3docs.com/tools/editor/2777 
+https://errorsea.com/html-code-to-change-text-color-on-mouseover/ 
+https://www.w3schools.com/html/html_tables.asp
+https://www.w3schools.com/cssref/css3_pr_text-shadow.asp
+https://www.w3schools.com/colors/colors_gradient.asp
+-->
+<html>
+<head>
+  <title>HW4_3</title>
+  <style>
+    body {background-color: rgb(190, 216, 165);}
+    h1   {color: #CFECC7;
+        font-family: verdana;
+        font-size: 150%;}
+    h2  {color: #446600;
+        font-family: verdana;
+        font-size: 130%;}
+    h3  {color: #446600;
+        font-family: verdana;
+        font-size: 100%;}
+    h4  {color: #024105;
+        font-family: verdana;
+        font-size: 140%;}
+    img{
+      box-shadow: 0 4px 8px 0 rgb(0, 95, 5);
+    }
+    p    {color: #F4FDF1;text-align: right;}
+    textfont {color: #446600;
+        font-family: verdana;
+        font-size: 100%;}
+    .about-section {
+        padding: 10px;
+        text-align: center;
+        background-color: #5f8853;
+      color: white;}
+    .info-bg{
+        padding: 10px;
+        text-align: left;
+        background-color: #729A67;
+        color: white;}
+    .gallery-bg{    padding: 10px;
+        text-align: left;
+        background-color: #8BBB7D;
+        color: white;}
+    .box{box-sizing: 10;padding-right: 30px;;
+        padding:5px;background-color:#def9b6}
+    a:hover {
+      color: #dcff5d;}
+    .blink {
+        animation: blinker 0.45s linear infinite;
+        color: #e4ffe7;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: sans-serif;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+    table, th, td {
+        background-color: #748f75;
+        border: 2px solid black;
+        border-collapse: collapse;text-align: center;
+        }
+        th, td {
+        padding: 15px;
+        }
+    .tab { 
+          display: inline-block; 
+          margin-left: 40px; 
+        } 
+
+    .column {
+      float: left;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
+</head>
+  
+<body style="width: 1250px;height:1900px ;text-align: center;">
+<div class="about-section">
+  <h1 style="font-size: 200%;text-shadow: 3px 4px #024105;">4_3</h1> 
+  <p style="font-size: 150%;"><a><b><marquee direction="left">6101012620130 SOLFWARE DEVELOPMENT PRACTICE II HW4</marquee></b></a></p>
+  </div>
+ 
+<div class="info-bg">
+    <h2 class="blink"><b>#Study schedule table#</b></h2>
+    <table style="width:100%">
+        <tr>
+          <th style=" background-color :#255e28;">day</th>
+          <th style=" background-color :#255e28;">8:00</th> 
+          <th style=" background-color :#255e28;">9:00</th>
+          <th style=" background-color :#255e28;">10:00</th>
+          <th style=" background-color :#255e28;">11:00</th>
+          <th style=" background-color :#255e28;">12:00</th>
+          <th style=" background-color :#255e28;">13:00</th>
+          <th style=" background-color :#255e28;">14:00</th>
+          <th style=" background-color :#255e28;">15:00</th>
+          <th style=" background-color :#255e28;">16:00</th>
+        </tr>
+        <tr>
+          <td style=" background-color :#255e28;">M</td>
+          <td></td>
+          <td colspan="3" style="text-align: left; background-color :#457047;">Analog and Digital elestronic</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style=" background-color :#255e28;">T</td>
+          <td></td>
+          <td colspan="3" style="text-align: left; background-color :#457047;">Solfware Development Practice II</td>
+          <td></td>
+          <td colspan="3" style="text-align: left; background-color :#457047;">Oral Presentation</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style=" background-color :#255e28;">W</td>
+          <td></td>
+          <td colspan="3" style="text-align: left; background-color :#457047;">Human body and Health</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style=" background-color :#255e28;">H</td>
+          <td></td>
+          <td colspan="3" style="text-align: left; background-color :#457047;">Computer Network I</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style=" background-color :#255e28;">F</td>
+          <td></td>
+          <td colspan="3" style="text-align: left; background-color :#457047;">Solfware Development Practice II</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+  </div>
+  
+
+ 
+<div class="gallery-bg">  
+  <h2>My Opinion about Cpr.E subjects</h2>
+  <div class="box">
+    <table style="width:100%">
+      <tr>
+        <th>Love?</th>
+        <th style="text-align:left">Programming Fundamental<br>
+
+          </th>
+      </tr>
+      <tr>
+        <th>Like?</th>
+        <th style="text-align:left">Solfware Development practice I & Solfware Development practice II<br>
+          
+      </tr>
+      <tr>
+        <th>No comment?</th>
+        <th style="text-align:left">Computer Network I
+        
+      </tr>
+      <tr>
+        <th>Bad feeling?</th>
+        <th style="text-align:left">Logic Design of Digital systems
+        
+      </tr>
+    </table>
+  </div>
+</div>
+ 
+<div class="gallery-bg">  
+  <h2>My Favorite subjects</h2>
+  <div class="box">
+    <textfont><b>Programming Fundamental</b><br>
+      <span class="tab"></span>เป็นวิชาพื้นฐานของสาขา ผู้เรียนต้องเข้าใจการเขียนภาษาและการทำงานของcode ทั้งการเขียนในส่วนของ GUI (Graphical User Interface)
+      และ ส่วนการทำงานที่เชื่อมโยงส่วนต่าง ๆ เข้าด้วยกัน<br>
+      <span class="tab"></span>เป็นวิชาที่ชอบเนื่องจากเป็นวิชาที่มีการลงมือปฏิบัติ มีการใช้ความคิดที่เป็นระบบมีงานที่ทำออกมาเป็นชิ้นเป็นอัน เช่นโปรแกรมคำนวนเล็ก ๆ 
+      การวาดรูปโดยใช้turtle หรือการเขียน-อ่านไฟล์ต่าง ๆ การทำงานร่วมกับ Database  สามารถนำสิ่งที่เรียนไปต่อยอดต่อได้ทั้งจากภาษาPython, Pygame, PysimpleGUI หรือภาษาใหม่ที่ศึกษา
+    </textfont>
+</div>
+</div>
+ 
+<div class="gallery-bg">
+  <h2>Additionals Features</h2>
+  <div class="box">
+    <textfont><textfont style="font-size: 150% ; font-weight: bold;">HOW TO GET A</textfont><br>
+    <span class="tab"></span>1. เข้าเรียนให้ทัน<br> 
+    <span class="tab"></span>2. ส่งงานให้ครบ<br> 
+    <span class="tab"></span>3. อ่านหนังสือ<br> 
+    <span class="tab"></span>4. ทวนเนื้อหาซ้ำๆ<br>
+    <span class="tab"></span>5. อ่านข้อ1ใหม่<br>
+    </textfont>
+  </div>
+</div>
+
+<BR>
+<P  class="blink" style="padding:0ex;animation: blinker 5s linear infinite;
+  color: #205026;font-size: 30px;font-weight: bold;font-family: sans-serif;"><marquee direction="left" scrollamount="10"behavior="alternate">
+    ( ͡◉ ͜ʖ ͡◉) 👉รับวาดรูปนะค้าาาา ราคาแบบโดเนท☜ ( ͡◉ ͜ʖ ͡◉)</marquee></P>
+
+<div class="gallery-bg">
+  <h2>Photo Gallery</h2>
+  <div class="box">
+    
+    <div class="row">
+      <div class="column" style="width: 30%;">
+        <a href="https://www.weibo.com/u/6554599420?is_all=1"><img  src="2dz3b78p9jlzlljl8q4gnh5rx.jpg" alt="pic1" style="width:100% ;"></a>
+        <img  src="116piwi1gel1usvwvir89ct5j.jpg" alt="pic2" style="width:100% ;">
+        <a href="https://www.facebook.com/rindorin001"><img  src="66238.jpg" alt="watercolor_p3" style="width:100% ;"></a>
+      </div>
+   
+      <div class="column"style="width: 30%;">
+        <img  src="gwwlet2srpm5y5q1jsfq7mjw.jpg" alt="pic3" style="width:100% ;">>
+        <a href="https://www.facebook.com/rindorin001"><img  src="142757175_2805342246370225_7294702072774890652_n.png" alt="cg1" style="width:100% ;"></a>
+        </div>
+
+      <div class="column"style="width: 35%;">
+        <a href="https://www.facebook.com/rindorin001"><img  src="143482305_788762048696568_5386969639194062947_n.png" alt="cg2" style="width:100% ;"></a>
+        <a href="https://www.facebook.com/rindorin001"><img  src="66237.jpg" alt="cg3" style="width:100% ;"></a>
+        </div>
+  
+    </div>
+  </div>
+</div><br>
+
+
+<div class="gallery-bg">
+  <iframe width="300" height="205" src="https://www.youtube.com/embed/videoseries?list=PLcESeLdKbouFRCVOwddHmxto3KOMsBn-t&autoplay=1&loop=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen ></iframe>
+</div>
+
+    
+</body>
